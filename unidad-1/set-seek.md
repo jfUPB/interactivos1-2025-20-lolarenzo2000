@@ -11,6 +11,7 @@
 
 ### Actividad 02
 * #### ¿Que es el diseño/arte generativo?
-
+  Es un programa autonomo que tiene unas reglas estipuladas por el diseñador que puede crear infinitos resultados distintos.
 * #### ¿Cómo podrías aplicar lo que has visto en tu perfil profesional?
+  Para la creacion de visuales y escenarios procedurales
 
