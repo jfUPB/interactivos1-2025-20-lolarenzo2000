@@ -8,3 +8,9 @@
   sistema que atravez de el uso de inputs y outputs logra tener una funcion o hacer una experiencia interactiva interesante
 * #### ¿Cómo podrías aplicar lo que has visto en tu perfil profesional?
   serviria en la creacion de experiencias que utilizen la tecnologia AR o VR
+
+### Actividad 02
+* #### ¿Que es el diseño/arte generativo?
+
+* #### ¿Cómo podrías aplicar lo que has visto en tu perfil profesional?
+
