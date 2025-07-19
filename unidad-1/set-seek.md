@@ -15,3 +15,12 @@
 * #### ¿Cómo podrías aplicar lo que has visto en tu perfil profesional?
   Para la creacion de visuales y escenarios procedurales
 
+### Actividad 03
+* #### Inputs:
+  El boton en la aplicacion de P5js Los botones y el detector de sacudida del micro:bit
+* #### Outputs:
+  Los leds y el circulo en la aplicacion de P5js
+* #### Proceso:
+  El codigo detecta los inputs y prende los leds o cambia el color del circulo en P5js
+
+### Actividad 04
