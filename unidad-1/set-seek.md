@@ -25,7 +25,7 @@
 
 ### Actividad 04
 
-[Enlance Editor Proyecto](https://editor.p5js.org/lolarenzo2000/full/EzOlyZTG_)
+[Enlance Editor Proyecto](https://editor.p5js.org/lolarenzo2000/sketches/EzOlyZTG_)
 
 ``` js
 function setup() {
