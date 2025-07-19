@@ -24,3 +24,18 @@
   El codigo detecta los inputs y prende los leds o cambia el color del circulo en P5js
 
 ### Actividad 04
+
+[Enlance Editor Proyecto](https://editor.p5js.org/lolarenzo2000/full/EzOlyZTG_)
+
+``` js
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(0,1);
+  circle(random(150,250),random(150,250),5)
+}
+```
+
+<img width="399" height="399" alt="image" src="https://github.com/user-attachments/assets/f77acf9a-676c-4f5a-8b3b-45d518af7536" />
