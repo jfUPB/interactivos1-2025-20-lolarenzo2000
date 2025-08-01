@@ -20,4 +20,10 @@ Implementemos juntos un semáforo simple (rojo, amarillo, verde) utilizando una 
    * ##### Eventos:
    * ##### Acciones:
 ### Actividad 03
-1. Porque de una funcion se pueden hacer varias acciones posibles
+1. #### Explica por qué decimos que este programa permite realizar de manera concurrente varias tareas.
+   Porque de una funcion se pueden hacer varias acciones posibles
+2. #### Identifica los estados, eventos y acciones en el programa.
+   * ##### Estados:
+   * ##### Eventos:
+   * ##### Acciones:
+3. Describe y Aplica aL menos 3 vectores de prueba 
