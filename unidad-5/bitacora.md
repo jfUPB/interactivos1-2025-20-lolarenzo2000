@@ -28,5 +28,8 @@
   Porque antes el tamaño de lo que llegaba era variable, ahora siempre se mandan solo 6 bytes, donde cada dato siene sus propios bytes.
 
 ### Actividad 04
-1. Remplazo el sistema ascii del viejo codigo con el nuevo sistema binario, usando el mismo codigo del ejemplo proporcionado, la aplicacion funciona como funcionaba la aplicacion con el sistema ascii.
+1. Remplazo el sistema ascii del viejo codigo con el nuevo sistema binario, usando el mismo codigo del ejemplo proporcionado, la aplicacion casi funciona como lo hacia la otra aplicacion pero con una sensibilidad diferente.
+2. El problema de la sensibilidad era una operacion que faltaba, la aplicacion ya funciona igual que al codigo con el metodo ascii.
+3. [Nuevo Codigo](https://editor.p5js.org/lolarenzo2000/full/4XhanlZmE)
+
 
