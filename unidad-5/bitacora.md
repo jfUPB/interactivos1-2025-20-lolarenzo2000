@@ -28,6 +28,69 @@
 ### Actividad 03
 * #### Explica por qué en la unidad anterior teníamos que enviar la información delimitada y además marcada con un salto de línea y ahora no es necesario.
   Porque antes el tamaño de lo que llegaba era variable, ahora siempre se mandan solo 6 bytes, donde cada dato siene sus propios bytes.
+* #### Compara el código de la unidad anterior relacionado con la recepción de los datos seriales que ves ahora. ¿Qué cambios observas?
+  La nueva funcion ``readSerialData()`` el cual se divide en 5 partes:  
+  1. ##### Leer datos disponibles del puerto serial
+     ``` js
+     let available = port.availableBytes();
+     if (available > 0) {
+       let newData = port.readBytes(available);
+       serialBuffer = serialBuffer.concat(newData);
+     }
+     ```
+     * Se checkea si hay bytes en el puerto serial.
+     * si si hay bytes, se le concatenaran al Serial Buffer.
+  2. ##### Procesar el buffer de datos
+     ``` js
+     while (serialBuffer.length >= 8) {
+       if (serialBuffer[0] !== 0xaa) {
+           serialBuffer.shift();
+           continue;
+         }
+     ```
+     * El loop hace que el programa pueda siempre lea el bufer solo caundo hay minimo un paquete de datos.
+     * Si el primer byte del buffer no es igual al header con ``serialBuffer.shift()`` se remueve el primer byte y luego se resetea el loop con ``continue``.
+     
+  3. ##### Procesamiento del packete
+     ``` js
+     if (serialBuffer.length < 8) break;
+     ```
+     * El loop se rompera si el serial buffer es menos de un paquete
+     ``` js
+     let packet = serialBuffer.slice(0, 8);
+     serialBuffer.splice(0, 8);
+     ```
+     * Como si se encontro el buffer y hay minimo 8 bytes, el codigo extraera los 8 primeros bytes como un packete con la funcion ``slice()``.
+     * Luego se remueven los mismos bytes del serial buffer.
+  4. ##### Validacion checksum
+     ``` js
+     let dataBytes = packet.slice(1, 7);
+     let receivedChecksum = packet[7];
+     let computedChecksum = dataBytes.reduce((acc, val) => acc + val, 0) % 256;
+     ```
+     * Se separan los datos del paquete, y se guarda el checksum del paquete.
+     * Se genera un checksum diferente con los datos recividos.
+     ``` js
+     if (computedChecksum !== receivedChecksum) {
+       console.log("Checksum error in packet");
+       continue; 
+     }
+     ```
+     * Si el checksum generado es diferente del checksum del packete, el codigo continuara a chekear el siguiente paquete.
+
+  5. ##### Extraccion de datos del paquete
+     ``` js
+     let buffer = new Uint8Array(dataBytes).buffer;
+     let view = new DataView(buffer);
+     microBitX = view.getInt16(0) + windowWidth / 2;
+     microBitY = view.getInt16(2) + windowHeight / 2;
+     microBitAState = view.getUint8(4) === 1;
+     microBitBState = view.getUint8(5) === 1;
+     ```
+     * Los datos se convierten en un array buffer usando ``Uint8Array(dataBytes).buffer``.
+     * Se crea un ``DataView`` para leer los diferentes tipos de datos en el buffer:
+     * ``getInt16()`` Lee los dos bytes desde la posicion pedida.
+     * ``getUnit8`` Lee el byte de la posicion pedida.
 
 ## Reto
 ### Actividad 04
@@ -35,5 +98,16 @@
 2. El problema de la sensibilidad era una operacion que faltaba, la aplicacion ya funciona igual que al codigo con el metodo ascii.
 3. [Nuevo Codigo](https://editor.p5js.org/lolarenzo2000/full/4XhanlZmE)
 
+## Rubrica
+1. ### Profundidad de la Indagación 
+
+
+2. ### Calidad de la Experimentación
+
+
+3. ### Análisis y Reflexión
+
+
+4. ### Apropiación y Articulación de Conceptos
 
 
