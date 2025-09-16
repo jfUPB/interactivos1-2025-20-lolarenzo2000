@@ -1,6 +1,8 @@
 
 # Evidencias de la unidad 5
 
+
+## Investigacion
 ### Actividad 02
 
 * #### ¿Por qué se ve este resultado?
@@ -23,13 +25,15 @@
   * Se estan enviando 6 bytes por mensaje.
   * ``'>'`` significa **big-endian** que hace que los bytes se ordenen de que el primero es el que representa el valor mas grande, ``'2h'`` significa dos variables **short** las cuales se divide en dos bytes cada una, ``'2b'`` significa dos variables de **signed char** que ocupan un byte cada una.
   * Los 2 primeros bytes son ``xValue``, los suigientes 2 son ``yValue`` y los ultimos dos son ``aState`` y ``bState`` respectivamente.
-
+### Actividad 03
 * #### Explica por qué en la unidad anterior teníamos que enviar la información delimitada y además marcada con un salto de línea y ahora no es necesario.
   Porque antes el tamaño de lo que llegaba era variable, ahora siempre se mandan solo 6 bytes, donde cada dato siene sus propios bytes.
 
+## Reto
 ### Actividad 04
 1. Remplazo el sistema ascii del viejo codigo con el nuevo sistema binario, usando el mismo codigo del ejemplo proporcionado, la aplicacion casi funciona como lo hacia la otra aplicacion pero con una sensibilidad diferente.
 2. El problema de la sensibilidad era una operacion que faltaba, la aplicacion ya funciona igual que al codigo con el metodo ascii.
 3. [Nuevo Codigo](https://editor.p5js.org/lolarenzo2000/full/4XhanlZmE)
+
 
 
