@@ -28,4 +28,5 @@
   Porque antes el tamaño de lo que llegaba era variable, ahora siempre se mandan solo 6 bytes, donde cada dato siene sus propios bytes.
 
 ### Actividad 04
-1. Remplazo el sistema ascii del viejo codigo con el nuevo sistema binario, usando el mismo codigo del ejemplo proporsionado, el codigo funciona igual que al sistema con ascii.
+1. Remplazo el sistema ascii del viejo codigo con el nuevo sistema binario, usando el mismo codigo del ejemplo proporcionado, la aplicacion funciona como funcionaba la aplicacion con el sistema ascii.
+
