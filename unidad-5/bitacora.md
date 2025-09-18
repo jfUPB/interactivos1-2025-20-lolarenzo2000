@@ -99,15 +99,16 @@
 3. [Nuevo Codigo](https://editor.p5js.org/lolarenzo2000/full/4XhanlZmE)
 
 ## Rubrica
-1. ### Profundidad de la Indagación 
+1. ### Profundidad de la Indagación ``Logrado 3.8``
+   Me hiciste buenas preguntas y comparaciones, aunque me faltó profundizar un poco más en las implicaciones del diseño de los protocolos.
 
+2. ### Calidad de la Experimentación ``Logrado 3.5``
+   Describí bien mis pruebas y lo que observé, pero no llegué a proponer experimentos más creativos o diferentes a los esperados.
 
-2. ### Calidad de la Experimentación
+3. ### Análisis y Reflexión ``Logrado 4.0``
+   Reflexioné con claridad sobre lo que pasó y lo conecté con la teoría, aunque me faltó generalizar más allá del ejercicio puntual.
 
-
-3. ### Análisis y Reflexión
-
-
-4. ### Apropiación y Articulación de Conceptos
-
+4. ### Apropiación y Articulación de Conceptos ``Logrado 4.0``
+   Entendí y expliqué los conceptos principales con mis palabras, aunque no los integré como un sistema completo.
+### Nota final: ``3.8/5.0``
 
