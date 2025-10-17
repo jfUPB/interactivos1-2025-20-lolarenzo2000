@@ -38,7 +38,7 @@ Se usa socket.broadcast.emit porque queremos enviar el mensaje a todos excepto a
 <img width="922" height="714" alt="image" src="https://github.com/user-attachments/assets/15231d6a-8166-4a2e-9c2f-db4bcd18b6c7" />
 
 ## Actividad 05
-**Diseño:** En la pantalla del computador se verian particulas fluir de el tope de la pantalla, que cambian de tamaño con el cambio de desibeles de la musica, en el mobil se verian sliders con los que se podrian cambiar el tamaño, color y cantidad de particulas.
+**Diseño:** En la pantalla del computador se verian particulas fluir de el tope de la pantalla, que cambian de tamaño con el cambio de desibeles de la musica, y que rebotan con la parte baja de la ventana hasta salir de la pantalla; en el mobil se verian sliders con los que se podrian cambiar el tamaño, color y cantidad de particulas.
 
 ## Rubrica
 
@@ -58,4 +58,5 @@ Representé de forma clara el proceso completo de comunicación entre los tres c
 La propuesta es creativa, pero solo esta planteada, no hay codigo.
 
 ### Nota Final: ``[3,5]``
+
 
