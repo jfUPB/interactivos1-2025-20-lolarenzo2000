@@ -38,6 +38,24 @@ Se usa socket.broadcast.emit porque queremos enviar el mensaje a todos excepto a
 <img width="922" height="714" alt="image" src="https://github.com/user-attachments/assets/15231d6a-8166-4a2e-9c2f-db4bcd18b6c7" />
 
 ## Actividad 05
+**Diseño:** En la pantalla del computador se verian particulas fluir de el tope de la pantalla, que cambian de tamaño con el cambio de desibeles de la musica, en el mobil se verian sliders con los que se podrian cambiar el tamaño, color y cantidad de particulas.
 
 ## Rubrica
+
+### Actividad 1 ``[✓]``
+Expliqué correctamente la función de Dev Tunnels como medio para permitir la conexión entre el servidor local y dispositivos externos, en lugar de usar localhost. También describí el uso de los comandos npm install y npm start para iniciar el proyecto, y reconocí el comportamiento del servidor al detectar conexiones y la ligera latencia esperada al usar una red externa.
+
+### Actividad 2 ``[✓]``
+Describí con claridad la necesidad de Dev Tunnels como puente entre distintos dispositivos, la función de touchMoved() como detector de movimiento táctil y el papel del umbral (threshold) para evitar el envío excesivo de datos. Además, comparé correctamente las ventajas y desventajas de usar una IP local frente a Dev Tunnels en términos de rendimiento, seguridad y alcance.
+
+### Actividad 3 ``[✓]``
+Mostré comprensión del manejo del servidor y la comunicación en tiempo real al explicar el uso de express.static('public') para servir archivos, y de socket.broadcast.emit para reenviar mensajes a todos los clientes excepto al emisor. Finalmente, señalé la utilidad de los mensajes console.log como herramienta de monitoreo y verificación del flujo de datos entre el móvil, el servidor y los escritorios.
+
+### ACtividad 4 ``[✓]``
+Representé de forma clara el proceso completo de comunicación entre los tres componentes: móvil, servidor y escritorio. El diagrama muestra cómo el móvil detecta las coordenadas táctiles (x, y), las envía al servidor mediante socket.emit, y cómo el servidor las retransmite a los escritorios con socket.broadcast.emit para que actualicen su visualización. Esta representación demuestra comprensión del flujo de eventos, del papel intermediario del servidor y del funcionamiento en tiempo real del sistema.
+
+### Actividad 5 ``[1/2]``
+La propuesta es creativa, pero solo esta planteada, no hay codigo.
+
+### Nota Final: ``[3,5]``
 
