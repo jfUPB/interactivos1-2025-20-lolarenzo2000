@@ -292,4 +292,10 @@ function draw() {
 }
 ```
 
+## Autoevaluacion
 
+### Actividad 1 ``[Completa]``
+  Logré definir con claridad la estética visual del proyecto, utilizando referencias que inspiraron un sistema de partículas dinámico. El concepto de la interactividad quedó bien establecido al determinar cómo el audio y el movimiento del micro:bit controlarían la visualización, mientras que una interfaz móvil permitiría la personalización en tiempo real. Tambien muestro entendimiento logico del flujo de datos entre los distintos componentes del sistema.
+### Actividad 2 ``[Incompleta]``
+  No pude llegar a un prototipo funcional que utilize los dispositivos.
+### Nota: ``[3]``
