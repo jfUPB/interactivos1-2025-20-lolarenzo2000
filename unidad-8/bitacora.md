@@ -6,16 +6,18 @@
   <img width="540" height="360" alt="image" src="https://github.com/user-attachments/assets/ec91353b-4a12-46aa-a9b6-777be8a58216" />
   <img width="168" height="300" alt="image" src="https://github.com/user-attachments/assets/d6163149-c9e5-4468-a5a3-8c9cf45b0b20" />  
   <img width="1024" height="415" alt="image" src="https://github.com/user-attachments/assets/396b4f0d-e36b-4256-9d67-153dbabde3f0" />
-
-
 * **Define el concepto de las visuales que quieres crear**  
   En la pantalla del computador se verian particulas fluir de alguna parte de la pantalla (definida por el Tilt del Micro:Bit), que cambian de tamaño con el cambio de desibeles de la musica, y que rebotan con la parte contraria de la ventana hasta salir de la pantalla.
 * **Explica cómo el móvil y el micro:bit controlarán las visuales**  
   En microbit se utilizaria el acelerometro para ver de donde caen las particulas, en el mobil se verian sliders con los que se podrian cambiar el tamaño, color y cantidad de particulas
 * **Haz un bocetos de todas las interfaces del sistema**  
-* **Haz un diagrama que explique cómo se comunicarán los diferentes componentes del sistema**  
+  <img width="1010" height="538" alt="image" src="https://github.com/user-attachments/assets/605becf2-0029-467f-80aa-048fc6aefaba" />  
+  <img width="311" height="413" alt="image" src="https://github.com/user-attachments/assets/0fe45981-7d8d-49ad-9e7f-1227f3e561b5" />
+* **Haz un diagrama que explique cómo se comunicarán los diferentes componentes del sistema**
+  <img width="584" height="606" alt="image" src="https://github.com/user-attachments/assets/3d84e171-992e-42f8-bd87-5a41c14accaf" />
+
 ## Actividad 02
-```
+``` js
 let socket;
 let tps;
 let particulas = [];
@@ -76,4 +78,5 @@ function rand(Min,Max){
     return Math.random()*(Max-Min)+Min;
 }
 ```
+
 
