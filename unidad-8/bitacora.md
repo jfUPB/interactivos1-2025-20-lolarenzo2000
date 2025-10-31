@@ -3,6 +3,11 @@
 
 ## Actividad 01
 * **Documenta los referentes visuales que te inspiren**  
+  <img width="540" height="360" alt="image" src="https://github.com/user-attachments/assets/ec91353b-4a12-46aa-a9b6-777be8a58216" />
+  <img width="168" height="300" alt="image" src="https://github.com/user-attachments/assets/d6163149-c9e5-4468-a5a3-8c9cf45b0b20" />  
+  <img width="1024" height="415" alt="image" src="https://github.com/user-attachments/assets/396b4f0d-e36b-4256-9d67-153dbabde3f0" />
+
+
 * **Define el concepto de las visuales que quieres crear**  
   En la pantalla del computador se verian particulas fluir de alguna parte de la pantalla (definida por el Tilt del Micro:Bit), que cambian de tamaño con el cambio de desibeles de la musica, y que rebotan con la parte contraria de la ventana hasta salir de la pantalla.
 * **Explica cómo el móvil y el micro:bit controlarán las visuales**  
@@ -71,3 +76,4 @@ function rand(Min,Max){
     return Math.random()*(Max-Min)+Min;
 }
 ```
+
